@@ -84,8 +84,8 @@ Used to detect:
 ---
 
 ## 📁 Project Structure
----
 
+```
 ├── index.html        # Main application
 ├── style (inline)    # UI + visual styles
 ├── script (inline)   # AI logic + rendering
