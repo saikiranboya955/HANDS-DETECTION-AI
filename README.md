@@ -84,3 +84,59 @@ Used to detect:
 ---
 
 ## 📁 Project Structure
+---
+
+├── index.html        # Main application
+├── style (inline)    # UI + visual styles
+├── script (inline)   # AI logic + rendering
+```
+
+---
+
+## ▶️ How to Run
+
+```bash
+# Step 1: Clone repo
+git clone https://github.com/your-username/neon-aura-ar.git
+
+# Step 2: Open file
+cd neon-aura-ar
+open index.html
+```
+
+### Then:
+
+* Allow camera access 📷
+* Click **Enter Experience**
+* Use your hands ✋
+
+---
+
+## 💡 Use Cases
+
+* 🎮 Gesture-controlled games
+* 🖥️ Touchless UI systems
+* 🧠 AI learning projects
+* 🎨 Interactive digital art
+* 🕶️ AR/VR prototypes
+
+---
+
+## 🔮 Future Improvements
+
+* Custom gesture recognition (ML-based)
+* Mobile optimization 📱
+* WebXR integration 🕶️
+* Multi-user interaction
+
+---
+
+## 👨‍💻 Author
+
+**Sai Kiran Boya**
+
+* 🎓 AIML Student
+* 💻 Passionate about Generative AI
+
+🔗 GitHub: https://github.com/saikiranboya955
+
