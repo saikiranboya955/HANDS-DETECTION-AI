@@ -1,544 +1,317 @@
-⚡ Neon Aura AR ⚡
-================================================================================
+<div align="center">
 
-Real-Time AI Hand Interaction
-Move your hands. Create the experience.
+# ⚡ Neon Aura AR ⚡
 
-Real-Time Hand Tracking with MediaPipe
-Gesture-Powered Visual Effects
-Two-Hand Interactive Energy System
-Built with HTML5 + CSS3 + JavaScript
+### Real-Time AI Hand Interaction
 
-HTML5 | CSS3 | JavaScript | MediaPipe | Web Audio API
+**Move your hands. Create the experience.**
 
-Stars ⭐ | Forks 🔀 | License: MIT | Status: Active
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&lines=Real-Time+Hand+Tracking+with+MediaPipe;Gesture-Powered+Visual+Effects;Two-Hand+Interactive+Energy+System;Built+with+HTML5+%2B+CSS3+%2B+JavaScript" alt="Typing SVG" />
 
-================================================================================
-🧬 OVERVIEW
-================================================================================
+<br>
 
-Neon Aura AR is an interactive computer-vision experience that transforms 
-real-time hand movements into dynamic digital visual effects.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-FF6F00?style=for-the-badge&logo=google&logoColor=white)
+![WebAudio](https://img.shields.io/badge/Web%20Audio%20API-8A2BE2?style=for-the-badge&logo=audiomack&logoColor=white)
 
-Using MediaPipe Hands, the application detects hand landmarks through the 
-user's webcam and maps finger movements, gestures, and two-hand interactions 
-onto an interactive HTML Canvas. The experience combines hand tracking, 
-gesture recognition, particle effects, energy waves, animated backgrounds, 
-audio feedback, and multiple visual themes — all running entirely in the 
-browser.
+![Stars](https://img.shields.io/github/stars/saikiranboya955/HANDS-DETECTION-AI?style=for-the-badge&color=FFD700)
+![Forks](https://img.shields.io/github/forks/saikiranboya955/HANDS-DETECTION-AI?style=for-the-badge&color=00E5FF)
+![License](https://img.shields.io/badge/License-MIT-ff69b4?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-39FF14?style=for-the-badge)
 
-🖐️ No installs. No backend. Just your webcam and your hands.
+</div>
 
-================================================================================
-🚀 FEATURES
-================================================================================
+---
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## 🧬 Overview
 
-🖐️ REAL-TIME HAND TRACKING
+**Neon Aura AR** is an interactive computer-vision experience that transforms real-time hand movements into dynamic digital visual effects.
 
-  • Detects up to TWO hands simultaneously
-  • Tracks 21 landmarks per hand
-  • Live hand count + FPS in the HUD
-  • Smooth, low-latency landmark updates
+Using **MediaPipe Hands**, the application detects hand landmarks through the user's webcam and maps finger movements, gestures, and two-hand interactions onto an interactive HTML Canvas. The experience combines hand tracking, gesture recognition, particle effects, energy waves, animated backgrounds, audio feedback, and multiple visual themes — all running **entirely in the browser**.
 
-✋ GESTURE RECOGNITION
+> 🖐️ *No installs. No backend. Just your webcam and your hands.*
 
-  • 🤏 Pinch → triggers a shockwave + sound
-  • 🖐️ Open Hand → expands effect radius
-  • ✊ Fist → contracts / calms the field
+---
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## 🚀 Features
 
-⚡ TWO-HAND INTERACTION
+<table>
+<tr>
+<td width="50%" valign="top">
 
-  • Glowing energy lines between fingertips
-  • Lightning connections on close proximity
-  • Rotating geometric patterns
-  • Audio pitch shifts with hand distance
+### 🖐️ Real-Time Hand Tracking
 
-✨ PARTICLE & VISUAL EFFECTS
+- Detects up to **two hands** simultaneously
+- Tracks **21 landmarks per hand**
+- Live hand count + FPS in the HUD
+- Smooth, low-latency landmark updates
 
-  • Physics-based glowing particles
-  • Fingertip-driven shockwaves
-  • Reactive matrix-style animated background
+### ✋ Gesture Recognition
 
-================================================================================
-🎨 VISUAL THEMES
-================================================================================
+- 🤏 **Pinch** → triggers a shockwave + sound
+- 🖐️ **Open Hand** → expands effect radius
+- ✊ **Fist** → contracts / calms the field
 
-🌈 RAINBOW
-  Color: Continuously shifting spectrum
-  Vibe: Full spectrum interaction experience
+</td>
 
-⚡ CYBERPUNK
-  Color: Neon red & electric cyan
-  Vibe: High-tech futuristic aesthetic
+<td width="50%" valign="top">
 
-🔥 LAVA
-  Color: Molten red/orange heat
-  Vibe: Intense thermal energy effects
+### ⚡ Two-Hand Interaction
 
-🌊 OCEAN
-  Color: Deep blue/cyan calm
-  Vibe: Cool, flowing water-like experience
+- Glowing energy lines between fingertips
+- Lightning connections on close proximity
+- Rotating geometric patterns
+- Audio pitch shifts with hand distance
 
-🌌 GALAXY
-  Color: Cosmic purple depths
-  Vibe: Deep space mystical energy
+### ✨ Particle & Visual Effects
 
-→ Switch instantly, live, mid-experience — no reload required.
+- Physics-based glowing particles
+- Fingertip-driven shockwaves
+- Reactive matrix-style animated background
 
-================================================================================
-🧠 HOW IT WORKS - DATA FLOW ARCHITECTURE
-================================================================================
+</td>
+</tr>
+</table>
 
-INPUT STAGE
-├─ 🎥 Webcam Feed
-│   └─ Real-time video stream from user's camera
-│       └─ Resolution: Browser default
-│           └─ Frame rate: 30 FPS (browser-dependent)
-│
-└─► PROCESSING STAGE
-    │
-    ├─ 🤖 MediaPipe Hands Model
-    │   ├─ Receives: Raw video frame
-    │   ├─ Processes: ML hand pose estimation
-    │   └─ Outputs: Hand landmarks (21 points per hand)
-    │
-    └─► DATA EXTRACTION LAYER
+---
+
+## 🎨 Visual Themes
+
+<div align="center">
+
+| Theme | Preview | Vibe |
+|:---:|:---:|:---|
+| 🌈 **Rainbow** | ![#FF0000](https://placehold.co/15x15/FF0000/FF0000.png) ![#00FF00](https://placehold.co/15x15/00FF00/00FF00.png) ![#0000FF](https://placehold.co/15x15/0000FF/0000FF.png) | Continuously shifting spectrum |
+| ⚡ **Cyberpunk** | ![#FF003C](https://placehold.co/15x15/FF003C/FF003C.png) ![#00FFF7](https://placehold.co/15x15/00FFF7/00FFF7.png) | Neon red & electric cyan |
+| 🔥 **Lava** | ![#FF4500](https://placehold.co/15x15/FF4500/FF4500.png) ![#FFA500](https://placehold.co/15x15/FFA500/FFA500.png) | Molten red/orange heat |
+| 🌊 **Ocean** | ![#00BFFF](https://placehold.co/15x15/00BFFF/00BFFF.png) ![#1E90FF](https://placehold.co/15x15/1E90FF/1E90FF.png) | Deep blue/cyan calm |
+| 🌌 **Galaxy** | ![#8A2BE2](https://placehold.co/15x15/8A2BE2/8A2BE2.png) ![#4B0082](https://placehold.co/15x15/4B0082/4B0082.png) | Cosmic purple depths |
+
+*Switch instantly, live, mid-experience — no reload required.*
+
+</div>
+
+---
+
+## 🧠 How It Works
+
+```text
+                     🎥  Webcam Feed
+                          │
+                          ▼
+                 🤖  MediaPipe Hands
+                          │
+                          ▼
+              📍  21 Hand Landmarks (x2)
+                          │
+        ┌─────────────┬───┴────────┬──────────────┐
+        ▼             ▼             ▼              ▼
+   Gesture Det.   Finger Pos.   Hand Motion   Two-Hand Logic
+        │             │             │              │
+        └─────────────┴──────┬──────┴──────────────┘
+                              ▼
+                  🎨  Canvas Rendering Engine
+        ┌──────────┬────────────┬───────────────┐
+        ▼          ▼            ▼               ▼
+   Particles   Shockwaves   Energy Lines   Dynamic BG
+                              │
+                              ▼
+               ✨  Interactive Visual Experience
+```
+
+MediaPipe Hands processes the webcam input and provides hand landmark coordinates that drive the application's gesture detection, visual effects, and two-hand interactions.
+
+---
+
+## 🎯 Gesture System
+
+### 🤏 Pinch Detection
+
+The application detects a pinch by measuring the distance between the **thumb tip** and **index finger tip**.
+
+```text
+Thumb Tip — Landmark 4
         │
-        ├─ 📍 Landmark Coordinates
-        │   ├─ Hand 1: [x₁, y₁, z₁, conf₁] × 21 points
-        │   └─ Hand 2: [x₂, y₂, z₂, conf₂] × 21 points
+        │ Distance
+        ▼
+Index Tip — Landmark 8
+```
+
+When the fingers move sufficiently close together:
+
+- A visual shockwave is generated at the pinch location.
+- An electronic sound effect is triggered.
+- The HUD displays the pinch gesture.
+- The interaction becomes part of the surrounding visual effects.
+
+### ✋ Open Hand / ✊ Fist
+
+The application estimates hand spread by measuring the distance between the **index fingertip** and **pinky fingertip**.
+
+```text
+Index Tip — Landmark 8
         │
-        ├─ 🎯 Gesture Detection Module
-        │   ├─ Input: Landmark positions
-        │   ├─ Analysis:
-        │   │   ├─ Pinch: Distance(Thumb4, Index8)
-        │   │   ├─ Open Hand: Distance(Index8, Pinky20)
-        │   │   └─ Fist: Centroid clustering
-        │   └─ Output: Gesture type + confidence
-        │
-        ├─ 💫 Finger Position Tracking
-        │   ├─ Extract fingertip coordinates
-        │   ├─ Calculate velocity vectors
-        │   └─ Store temporal history (smooth motion)
-        │
-        ├─ 🎭 Hand Motion Analysis
-        │   ├─ Hand centroid movement
-        │   ├─ Rotation detection
-        │   └─ Scale/spread calculation
-        │
-        └─ ⚡ Two-Hand Interaction Logic
-            ├─ IF: Both hands detected
-            │   ├─ Calculate inter-hand distance
-            │   ├─ Compute fingertip connections
-            │   ├─ Determine energy field strength
-            │   └─ Generate audio pitch modulation
-            └─ ELSE: Single-hand mode
+        │ Spread
+        ▼
+Pinky Tip — Landmark 20
+```
 
-            └─► RENDERING PIPELINE
-                │
-                ├─ 🎨 Canvas Setup
-                │   ├─ 2D Context initialization
-                │   ├─ Clear previous frame
-                │   └─ Apply theme colors
-                │
-                ├─ 📐 Particle System
-                │   ├─ Create particles from fingertips
-                │   ├─ Apply physics (gravity, velocity)
-                │   ├─ Collision detection
-                │   └─ Alpha fade-out
-                │
-                ├─ 💥 Shockwave Effects
-                │   ├─ Trigger on pinch detection
-                │   ├─ Expand circular wave
-                │   ├─ Color gradient mapping
-                │   └─ Opacity animation
-                │
-                ├─ ⚡ Energy Lines & Lightning
-                │   ├─ Fingertip-to-fingertip connections
-                │   ├─ Bezier curve interpolation
-                │   ├─ Animated dashes
-                │   └─ Glow effects (shadow blur)
-                │
-                ├─ 🔄 Dynamic Background
-                │   ├─ Matrix-style code animation
-                │   ├─ Parallax scrolling
-                │   └─ Theme-based color cycling
-                │
-                ├─ 📊 HUD (Heads-Up Display)
-                │   ├─ Hand count display
-                │   ├─ FPS counter
-                │   ├─ Gesture status
-                │   ├─ Theme selector
-                │   └─ Instructions panel
-                │
-                └─ 🔊 Audio Engine
-                    ├─ Web Audio API context
-                    ├─ Oscillator synthesis
-                    ├─ Pitch modulation (hand distance)
-                    ├─ Envelope shaping (ADSR)
-                    └─ Speaker output
+The calculated spread is converted into a percentage and used to distinguish between an open hand and a closed/fist-like state.
 
-OUTPUT STAGE
-├─ ✨ Visual Display
-│   └─ Canvas rendering to screen (30+ FPS)
-│
-└─ 🔊 Audio Feedback
-    └─ Speaker playback (real-time synthesis)
+---
 
-CYCLE REPEATS AT: Browser RequestAnimationFrame Rate (typically 60 Hz)
+## 🛠️ Technology Stack
 
-================================================================================
-🎯 GESTURE SYSTEM DETAILED
-================================================================================
+<div align="center">
 
-───────────────────────────────────────────────────────────────────────────────
-🤏 PINCH DETECTION DATA FLOW
-───────────────────────────────────────────────────────────────────────────────
+| Technology | Purpose |
+|:---|:---|
+| 🟧 **HTML5** | Application structure |
+| 🟦 **CSS3** | UI, responsive layout, glassmorphism |
+| 🟨 **JavaScript** | Core logic & interaction |
+| 🔴 **MediaPipe Hands** | Real-time landmark detection |
+| 🎨 **Canvas 2D API** | Visual effects rendering |
+| 🔊 **Web Audio API** | Interactive sound feedback |
+| 📷 **Web Camera API** | Webcam input stream |
+| 🔤 **Google Fonts** | Interface typography |
 
-Step 1: Landmark Identification
-├─ Thumb Tip Landmark: Position #4
-│   └─ Coordinates: (x_thumb, y_thumb, z_thumb, confidence_thumb)
-│
-└─ Index Finger Tip Landmark: Position #8
-    └─ Coordinates: (x_index, y_index, z_index, confidence_index)
+</div>
 
-Step 2: Distance Calculation
-├─ Formula: distance = √[(x_thumb - x_index)² + (y_thumb - y_index)²]
-├─ Normalized to range: 0.0 to 0.1 (normalized hand size)
-└─ Smoothing filter applied (exponential moving average)
+No package installation or Node.js build process required — MediaPipe is loaded directly via CDN.
 
-Step 3: Threshold Comparison
-├─ IF: distance < PINCH_THRESHOLD (0.035)
-│   ├─ Gesture detected: PINCH
-│   ├─ Trigger action sequence:
-│   │   ├─ Audio: Play synth note (400 Hz)
-│   │   ├─ Visual: Create shockwave at pinch position
-│   │   ├─ Particle: Spawn burst particles
-│   │   └─ HUD: Display "PINCH DETECTED"
-│   │
-│   └─ Duration tracking for sustained pinch
-│
-└─ ELSE: Continue monitoring
+---
 
-───────────────────────────────────────────────────────────────────────────────
-✋ OPEN HAND / ✊ FIST DETECTION DATA FLOW
-───────────────────────────────────────────────────────────────────────────────
+## 📁 Project Structure
 
-Step 1: Landmark Extraction
-├─ Index Finger Tip: Landmark #8
-│   └─ Position: (x_index, y_index)
-│
-├─ Pinky Finger Tip: Landmark #20
-│   └─ Position: (x_pinky, y_pinky)
-│
-└─ Hand Centroid: Average of all 21 landmarks
-    └─ Position: (x_center, y_center)
-
-Step 2: Hand Spread Calculation
-├─ Max spread distance: √[(x_index - x_pinky)² + (y_index - y_pinky)²]
-├─ Normalized hand size: (palm diameter estimation)
-├─ Spread percentage: (actual_spread / max_spread) × 100
-└─ Value range: 0% (fist) to 100% (fully open hand)
-
-Step 3: State Classification
-├─ IF: spread_percentage > 60%
-│   ├─ State: OPEN_HAND
-│   ├─ Effect: Expand particle effect radius
-│   ├─ Audio: Higher frequency synthesis
-│   └─ Visual: Bright, expansive energy field
-│
-├─ ELSE IF: 30% ≤ spread_percentage ≤ 60%
-│   ├─ State: NEUTRAL
-│   ├─ Effect: Normal effect size
-│   └─ Audio: Mid-range frequency
-│
-└─ ELSE: (spread_percentage < 30%)
-    ├─ State: FIST
-    ├─ Effect: Contract energy field, calm effects
-    ├─ Audio: Lower frequency synthesis
-    └─ Visual: Dim, focused energy
-
-================================================================================
-🛠️ TECHNOLOGY STACK
-================================================================================
-
-┌─────────────────┬──────────────────────────────────────────────────────┐
-│ TECHNOLOGY      │ PURPOSE                                              │
-├─────────────────┼──────────────────────────────────────────────────────┤
-│ 🟧 HTML5        │ Application structure, canvas element, video input   │
-│ 🟦 CSS3         │ UI styling, responsive layout, glassmorphism effects│
-│ 🟨 JavaScript   │ Core logic, gesture detection, state management     │
-│ 🔴 MediaPipe    │ Real-time hand landmark detection & tracking        │
-│ 🎨 Canvas 2D    │ 2D visual effects rendering & particle animation    │
-│ 🔊 Web Audio    │ Interactive sound feedback & synthesis              │
-│ 📷 WebRTC       │ Webcam/camera access & streaming                    │
-│ 🔤 Google Fonts │ Interface typography & visual hierarchy             │
-└─────────────────┴──────────────────────────────────────────────────────┘
-
-✓ No package installation required
-✓ No Node.js build process
-✓ MediaPipe loaded directly via CDN
-✓ All processing happens client-side
-
-================================================================================
-📁 PROJECT STRUCTURE
-================================================================================
-
+```text
 HANDS-DETECTION-AI/
 │
-├── 📄 index.html
-│   ├─ Landing page structure
-│   ├─ Canvas element
-│   ├─ Video input element (hidden)
-│   ├─ MediaPipe Hands script (CDN)
-│   ├─ Gesture detection logic
-│   ├─ Particle system implementation
-│   ├─ Canvas rendering engine
-│   ├─ Audio synthesis engine
-│   ├─ Theme management
-│   └─ UI controls & HUD
-│
-├── 🎨 style.css
-│   ├─ HUD styling & positioning
-│   ├─ Theme selector buttons
-│   ├─ Glassmorphism UI effects
-│   ├─ Responsive layout (mobile-friendly)
-│   ├─ Animations & transitions
-│   ├─ Typography & font loading
-│   └─ Color schemes for all themes
-│
-└── 📘 README.md
-    └─ Project documentation & usage guide
+├── 📄 INDEX.HTML          → Landing page, tracking logic, gestures, canvas, audio
+├── 🎨 style.css           → HUD, theme selector, glassmorphism, responsive layout
+└── 📘 README.md           → Project documentation
+```
 
-================================================================================
-💻 GETTING STARTED
-================================================================================
+---
 
-STEP 1: CLONE THE REPOSITORY
-────────────────────────────────────────────────────────────────────────────
-$ git clone https://github.com/saikiranboya955/HANDS-DETECTION-AI.git
+## 💻 Getting Started
 
+<table>
+<tr><td>
 
-STEP 2: NAVIGATE INTO PROJECT DIRECTORY
-────────────────────────────────────────────────────────────────────────────
-$ cd HANDS-DETECTION-AI
+**1️⃣ Clone the repository**
 
+```bash
+git clone https://github.com/saikiranboya955/HANDS-DETECTION-AI.git
+```
 
-STEP 3: START A LOCAL HTTP SERVER
-────────────────────────────────────────────────────────────────────────────
-$ python -m http.server 8080
+**2️⃣ Move into the project**
 
-(Alternative: Use any local server like Live Server, Node http-server, etc.)
+```bash
+cd HANDS-DETECTION-AI
+```
 
+**3️⃣ Start a local server**
 
-STEP 4: OPEN IN YOUR WEB BROWSER
-────────────────────────────────────────────────────────────────────────────
-→ Navigate to: http://localhost:8080
+```bash
+python -m http.server 8080
+```
 
-Expected: You should see the Neon Aura AR landing page
+**4️⃣ Open in your browser**
 
+```text
+http://localhost:8080
+```
 
-================================================================================
-🎮 USING THE EXPERIENCE
-================================================================================
+</td></tr>
+</table>
 
-┌──────────────────────────────────────────────────────────────────────────┐
-│ INTERACTION GUIDE                                                        │
-├──────────────┬───────────────────────────────────────────────────────────┤
-│ STEP 1       │ Click "Enter Experience" button                          │
-│ STEP 2       │ Allow camera/webcam access when prompted                 │
-│ STEP 3       │ Place your hand in front of the camera                   │
-│ STEP 4       │ Move your fingers slowly, watch particles follow         │
-│ STEP 5       │ Try a pinch gesture (bring thumb & index close)          │
-│ STEP 6       │ Bring both hands into frame for energy interactions      │
-│ STEP 7       │ Explore the theme selector buttons (🎨)                  │
-│ STEP 8       │ Move hands rapidly for dramatic effects                  │
-│ STEP 9       │ Mix open hands & fists for varied effects                │
-│ STEP 10      │ Experiment & create your own gestures                    │
-└──────────────┴───────────────────────────────────────────────────────────┘
+### 🎮 Using the Experience
 
-═══════════════════════════════════════════════════════════════════════════════
-🔐 PRIVACY & SECURITY
-═══════════════════════════════════════════════════════════════════════════════
+| Step | Action |
+|:---:|:---|
+| 1 | Click **Enter Experience** |
+| 2 | Allow camera access |
+| 3 | Place your hand in front of the camera |
+| 4 | Move your fingers and hands |
+| 5 | Try a 🤏 pinch gesture |
+| 6 | Bring **two hands** into frame |
+| 7 | Explore the theme selector 🎨 |
 
-🛡️ NEON AURA AR IS 100% CLIENT-SIDE
+---
 
-✓ Webcam feed is processed LOCALLY in the browser
-✓ No backend server involvement
-✓ No video upload to external servers
-✓ No storage of camera footage
-✓ No personal data collection
-✓ All processing happens on your device
-✓ Clear privacy notice on landing page
-✓ You control camera permissions at all times
+## 🔐 Privacy
 
-The MediaPipe model runs entirely in your browser's JavaScript environment.
-No data leaves your device.
+> 🛡️ **Neon Aura AR is 100% client-side.**
 
-═══════════════════════════════════════════════════════════════════════════════
-🔮 FUTURE ENHANCEMENTS
-═══════════════════════════════════════════════════════════════════════════════
+The webcam feed is processed **locally in the browser** for real-time hand tracking. There is no backend, no video upload, and no storage of camera footage. The landing page clearly informs users that all processing happens on-device.
 
-PLANNED FEATURES:
+---
 
-🧠 Machine Learning Improvements
-├─ Custom ML-based hand pose classification
-├─ Advanced gesture recognition (10+ custom gestures)
-├─ Real-time hand pose confidence scoring
-└─ Adaptive gesture sensitivity based on user profiling
+## 🔮 Future Improvements
 
-🕹️ User Interface Enhancements
-├─ Gesture-controlled UI navigation (no mouse needed)
-├─ Virtual menu system (hand-activated buttons)
-├─ Settings panel (gesture sensitivity, effect intensity)
-└─ Gesture recording & playback
+- 🧠 Custom ML-based hand pose classification
+- 🕹️ Gesture-controlled UI navigation
+- 🧊 3D hand visualization
+- 🎆 Additional particle systems
+- 🎧 Richer interactive audio layers
+- 📹 Recording & exporting generated visuals
+- 📱 Mobile camera optimization
+- 🖥️ WebGL-accelerated rendering
 
-🧊 3D & Advanced Graphics
-├─ 3D hand mesh visualization
-├─ WebGL-accelerated rendering (10x performance)
-├─ Skeletal animation system
-├─ Advanced shadow & lighting effects
-└─ Post-processing filters (bloom, chromatic aberration)
+---
 
-🎆 Visual Effects Library
-├─ Additional particle systems
-├─ 20+ visual themes (neon, retro, nature, etc.)
-├─ Fluid dynamics simulation
-├─ Trail effects for finger movements
-└─ Custom gradient mappings
+## 📌 Use Cases
 
-🎧 Audio Expansion
-├─ Richer interactive audio layers
-├─ Spatial audio (3D sound positioning)
-├─ Gesture-triggered sound effects library
-├─ MIDI output support
-└─ Real-time audio visualization
+<div align="center">
 
-📹 Content Creation Tools
-├─ Recording & exporting generated visuals
-├─ Video export (MP4, WebM formats)
-├─ Screenshot capture
-├─ Real-time streaming integration
-└─ GIF export functionality
+`Computer Vision` • `HCI Projects` • `AI/ML Portfolio` • `Interactive Digital Art`
 
-📱 Mobile Optimization
-├─ Touch gestures support (fallback mode)
-├─ Mobile camera optimization
-├─ Responsive design for small screens
-├─ Performance tuning for mobile devices
-└─ Accelerometer integration
+`Gesture-Controlled Interfaces` • `AR-Inspired Web Experiences` • `Creative Coding`
 
-🖥️ Performance Optimization
-├─ WebGL-accelerated rendering
-├─ Worker thread for gesture detection
-├─ Optimized particle pooling
-├─ Memory-efficient landmark tracking
-└─ Adaptive quality based on device capability
+</div>
 
-═══════════════════════════════════════════════════════════════════════════════
-📌 USE CASES
-═══════════════════════════════════════════════════════════════════════════════
+---
 
-ACADEMIC & PROFESSIONAL:
-  ✓ Computer Vision portfolio project
-  ✓ HCI (Human-Computer Interaction) research
-  ✓ AI/ML demonstration & learning
-  ✓ Gesture recognition thesis work
-  ✓ Real-time video processing showcase
+## 📚 Core Concepts Demonstrated
 
-CREATIVE & ARTISTIC:
-  ✓ Interactive digital art installation
-  ✓ AR-inspired web experiences
-  ✓ Creative coding experiments
-  ✓ Performance art tool
-  ✓ Live event visualization
+| | | |
+|:---|:---|:---|
+| ✅ Computer Vision | ✅ Hand Landmark Detection | ✅ Gesture Recognition |
+| ✅ Real-Time Video Processing | ✅ Canvas Rendering | ✅ Particle Physics |
+| ✅ Interactive Visualization | ✅ Web Audio | ✅ Event-Driven JS |
+| ✅ Responsive UI Design | ✅ Client-Side AI Processing | |
 
-EDUCATIONAL:
-  ✓ Teaching ML/Computer Vision concepts
-  ✓ Demonstrating pose estimation
-  ✓ Browser-based AI applications
-  ✓ Web development showcase
-  ✓ Student project inspiration
+---
 
-ENTERTAINMENT:
-  ✓ Interactive game mechanics
-  ✓ Virtual performance system
-  ✓ Gesture-controlled experiences
-  ✓ Motion capture alternative
-  ✓ Social media content creation
+## 👨‍💻 Author
 
-═══════════════════════════════════════════════════════════════════════════════
-📚 CORE CONCEPTS DEMONSTRATED
-═══════════════════════════════════════════════════════════════════════════════
+<div align="center">
 
-┌──────────────────────────┬──────────────────────────┬──────────────────────┐
-│ COMPUTER VISION          │ WEB TECHNOLOGIES         │ INTERACTIVE SYSTEMS  │
-├──────────────────────────┼──────────────────────────┼──────────────────────┤
-│ ✅ Video stream capture  │ ✅ Canvas 2D rendering   │ ✅ Event handling     │
-│ ✅ Hand pose estimation  │ ✅ WebGL optimization   │ ✅ Gesture detection  │
-│ ✅ Landmark tracking     │ ✅ Web Audio API         │ ✅ Real-time feedback │
-│ ✅ Gesture recognition   │ ✅ Responsive design     │ ✅ State management   │
-│ ✅ Pose classification   │ ✅ Performance tuning    │ ✅ Multi-hand logic  │
-└──────────────────────────┴──────────────────────────┴──────────────────────┘
+### **SAI KIRAN BOYA**
 
-┌──────────────────────────┬──────────────────────────┬──────────────────────┐
-│ MACHINE LEARNING         │ REAL-TIME PROCESSING     │ DESIGN PATTERNS      │
-├──────────────────────────┼──────────────────────────┼──────────────────────┤
-│ ✅ Pre-trained models    │ ✅ <16ms latency        │ ✅ Observer pattern   │
-│ ✅ Inference pipeline    │ ✅ Smooth interpolation  │ ✅ Singleton theme    │
-│ ✅ Confidence scoring    │ ✅ Velocity tracking     │ ✅ Factory pattern    │
-│ ✅ Model quantization    │ ✅ Frame buffering       │ ✅ Strategy pattern   │
-│ ✅ Browser-based AI      │ ✅ Smooth animations     │ ✅ MVC architecture   │
-└──────────────────────────┴──────────────────────────┴──────────────────────┘
+*AI/ML • Generative AI • Computer Vision • Data Analytics*
 
-═══════════════════════════════════════════════════════════════════════════════
-👨‍💻 AUTHOR & CREATOR
-═══════════════════════════════════════════════════════════════════════════════
+Focused on building practical AI applications and interactive computer-vision experiences using Python, machine learning, deep learning, and modern web technologies.
 
-SAI KIRAN BOYA
-──────────────────────────────────────────────────────────────────────────────
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/saikiranboya955)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sai-kiran-boya-a46311322/)
 
-Specializations:
-  🤖 Artificial Intelligence / Machine Learning
-  🔮 Generative AI & LLMs
-  👁️ Computer Vision & Image Processing
-  📊 Data Analytics & Big Data
-  🌐 Full-Stack Development
+</div>
 
-Focus:
-  Building practical AI applications and interactive computer-vision 
-  experiences using Python, machine learning, deep learning, and modern 
-  web technologies.
+---
 
-Portfolio & Links:
-  GitHub: https://github.com/saikiranboya955
-  LinkedIn: https://www.linkedin.com/in/sai-kiran-boya-a46311322/
+<div align="center">
 
-═══════════════════════════════════════════════════════════════════════════════
-⭐ SUPPORT THIS PROJECT
-═══════════════════════════════════════════════════════════════════════════════
+## ⭐ Support This Project
 
-If you find this project interesting and useful, consider giving the 
-repository a STAR ⭐ on GitHub!
+If you find this project interesting, consider giving the repository a **star** ⭐
 
-Your support encourages further development and innovation.
-
-GitHub: https://github.com/saikiranboya955/HANDS-DETECTION-AI
-
-Stars Count: [View on GitHub]
-
-═══════════════════════════════════════════════════════════════════════════════
-
-✨ NEON AURA AR ✨
-
-See the hand. Track the movement. Turn motion into light.
-
-═══════════════════════════════════════════════════════════════════════════════
-
-© 2024 Sai Kiran Boya | MIT License | All Rights Reserved
-
-═══════════════════════════════════════════════════════════════════════════════
+![Stars](https://img.shields.io/github/stars/saikiranboya955/HANDS-DETECTION-AI?style=social) 
+ 
+### ✨ Neon Aura AR ✨ 
+ 
+**See the hand. Track the movement. Turn motion into light.** 
+ 
+</div> 
