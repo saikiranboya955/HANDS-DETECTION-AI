@@ -42,26 +42,31 @@ Using **MediaPipe Hands**, the application detects hand landmarks through the us
 <td width="50%" valign="top">
 
 ### 🖐️ Real-Time Hand Tracking
+
 - Detects up to **two hands** simultaneously
 - Tracks **21 landmarks per hand**
 - Live hand count + FPS in the HUD
 - Smooth, low-latency landmark updates
 
 ### ✋ Gesture Recognition
+
 - 🤏 **Pinch** → triggers a shockwave + sound
 - 🖐️ **Open Hand** → expands effect radius
 - ✊ **Fist** → contracts / calms the field
 
 </td>
+
 <td width="50%" valign="top">
 
 ### ⚡ Two-Hand Interaction
+
 - Glowing energy lines between fingertips
 - Lightning connections on close proximity
 - Rotating geometric patterns
 - Audio pitch shifts with hand distance
 
 ### ✨ Particle & Visual Effects
+
 - Physics-based glowing particles
 - Fingertip-driven shockwaves
 - Reactive matrix-style animated background
@@ -116,7 +121,7 @@ Using **MediaPipe Hands**, the application detects hand landmarks through the us
                ✨  Interactive Visual Experience
 ```
 
-MediaPipe Hands is initialized with support for up to two hands and configurable detection/tracking confidence values.
+MediaPipe Hands processes the webcam input and provides hand landmark coordinates that drive the application's gesture detection, visual effects, and two-hand interactions.
 
 ---
 
@@ -124,26 +129,36 @@ MediaPipe Hands is initialized with support for up to two hands and configurable
 
 ### 🤏 Pinch Detection
 
-```javascript
-// Distance between Thumb Tip (4) and Index Tip (8)
-const distance = getDistance(landmarks[4], landmarks[8]);
+The application detects a pinch by measuring the distance between the **thumb tip** and **index finger tip**.
 
-if (distance < PINCH_THRESHOLD) {
-  triggerShockwave(midpoint(landmarks[4], landmarks[8]));
-  playPinchSound();
-  updateGestureLabel("PINCH");
-}
+```text
+Thumb Tip — Landmark 4
+        │
+        │ Distance
+        ▼
+Index Tip — Landmark 8
 ```
+
+When the fingers move sufficiently close together:
+
+- A visual shockwave is generated at the pinch location.
+- An electronic sound effect is triggered.
+- The HUD displays the pinch gesture.
+- The interaction becomes part of the surrounding visual effects.
 
 ### ✋ Open Hand / ✊ Fist
 
-```javascript
-// Spread between Index Tip (8) and Pinky Tip (20)
-const spread = getDistance(landmarks[8], landmarks[20]);
-const spreadPercent = normalize(spread) * 100;
+The application estimates hand spread by measuring the distance between the **index fingertip** and **pinky fingertip**.
 
-const gesture = spreadPercent > OPEN_THRESHOLD ? "OPEN HAND" : "FIST";
+```text
+Index Tip — Landmark 8
+        │
+        │ Spread
+        ▼
+Pinky Tip — Landmark 20
 ```
+
+The calculated spread is converted into a percentage and used to distinguish between an open hand and a closed/fist-like state.
 
 ---
 
@@ -175,7 +190,7 @@ HANDS-DETECTION-AI/
 │
 ├── 📄 INDEX.HTML          → Landing page, tracking logic, gestures, canvas, audio
 ├── 🎨 style.css           → HUD, theme selector, glassmorphism, responsive layout
-└── 📘 README.md           → You are here
+└── 📘 README.md           → Project documentation
 ```
 
 ---
@@ -234,21 +249,6 @@ The webcam feed is processed **locally in the browser** for real-time hand track
 
 ---
 
-## ⚙️ Configuration
-
-```javascript
-const HAND_CONFIG = {
-  maxNumHands: 2,
-  modelComplexity: 1,
-  minDetectionConfidence: 0.7,
-  minTrackingConfidence: 0.7
-};
-```
-
-These settings balance real-time tracking accuracy with browser performance.
-
----
-
 ## 🔮 Future Improvements
 
 - 🧠 Custom ML-based hand pose classification
@@ -289,7 +289,7 @@ These settings balance real-time tracking accuracy with browser performance.
 
 <div align="center">
 
-### **Sai Kiran Boya**
+### **SAI KIRAN BOYA**
 
 *AI/ML • Generative AI • Computer Vision • Data Analytics*
 
