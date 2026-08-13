@@ -16,8 +16,8 @@
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-FF6F00?style=for-the-badge&logo=google&logoColor=white)
 ![WebAudio](https://img.shields.io/badge/Web%20Audio%20API-8A2BE2?style=for-the-badge&logo=audiomack&logoColor=white)
 
-![Stars](https://img.shields.io/github/stars/your-username/neon-aura-ar?style=for-the-badge&color=FFD700)
-![Forks](https://img.shields.io/github/forks/your-username/neon-aura-ar?style=for-the-badge&color=00E5FF)
+![Stars](https://img.shields.io/github/stars/saikiranboya955/HANDS-DETECTION-AI?style=for-the-badge&color=FFD700)
+![Forks](https://img.shields.io/github/forks/saikiranboya955/HANDS-DETECTION-AI?style=for-the-badge&color=00E5FF)
 ![License](https://img.shields.io/badge/License-MIT-ff69b4?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-39FF14?style=for-the-badge)
 
@@ -174,8 +174,8 @@ No package installation or Node.js build process required — MediaPipe is loade
 HANDS-DETECTION-AI/
 │
 ├── 📄 INDEX.HTML          → Landing page, tracking logic, gestures, canvas, audio
-├── 🎨 style.css            → HUD, theme selector, glassmorphism, responsive layout
-└── 📘 README.md            → You are here
+├── 🎨 style.css           → HUD, theme selector, glassmorphism, responsive layout
+└── 📘 README.md           → You are here
 ```
 
 ---
@@ -186,21 +186,25 @@ HANDS-DETECTION-AI/
 <tr><td>
 
 **1️⃣ Clone the repository**
+
 ```bash
-git clone https://github.com/your-username/neon-aura-ar.git
+git clone https://github.com/saikiranboya955/HANDS-DETECTION-AI.git
 ```
 
 **2️⃣ Move into the project**
+
 ```bash
-cd neon-aura-ar
+cd HANDS-DETECTION-AI
 ```
 
 **3️⃣ Start a local server**
+
 ```bash
 python -m http.server 8080
 ```
 
 **4️⃣ Open in your browser**
+
 ```text
 http://localhost:8080
 ```
@@ -263,6 +267,7 @@ These settings balance real-time tracking accuracy with browser performance.
 <div align="center">
 
 `Computer Vision` • `HCI Projects` • `AI/ML Portfolio` • `Interactive Digital Art`
+
 `Gesture-Controlled Interfaces` • `AR-Inspired Web Experiences` • `Creative Coding`
 
 </div>
@@ -290,8 +295,8 @@ These settings balance real-time tracking accuracy with browser performance.
 
 Focused on building practical AI applications and interactive computer-vision experiences using Python, machine learning, deep learning, and modern web technologies.
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-username)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/saikiranboya955)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sai-kiran-boya-a46311322/)
 
 </div>
 
@@ -303,9 +308,10 @@ Focused on building practical AI applications and interactive computer-vision ex
 
 If you find this project interesting, consider giving the repository a **star** ⭐
 
-![Stars](https://img.shields.io/github/stars/your-username/neon-aura-ar?style=social)
+![Stars](https://img.shields.io/github/stars/saikiranboya955/HANDS-DETECTION-AI?style=social)
 
 ### ✨ Neon Aura AR ✨
+
 **See the hand. Track the movement. Turn motion into light.**
 
 </div>
