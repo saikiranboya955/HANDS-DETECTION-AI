@@ -262,13 +262,14 @@ The webcam feed is processed **locally in the browser** for real-time hand track
 
 ---
 
+
 ## 📌 Use Cases
 
 <div align="center">
 
-`Computer Vision` • `HCI Projects` • `AI/ML Portfolio` • `Interactive Digital Art`
+**Computer Vision** • **HCI Projects** • **AI/ML Portfolio** • **Interactive Digital Art**
 
-`Gesture-Controlled Interfaces` • `AR-Inspired Web Experiences` • `Creative Coding`
+**Gesture-Controlled Interfaces** • **AR-Inspired Web Experiences** • **Creative Coding**
 
 </div>
 
