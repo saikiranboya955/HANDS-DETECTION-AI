@@ -97,29 +97,11 @@ Using **MediaPipe Hands**, the application detects hand landmarks through the us
 
 ## 🧠 How It Works
 
-```text
-                     🎥  Webcam Feed
-                          │
-                          ▼
-                 🤖  MediaPipe Hands
-                          │
-                          ▼
-              📍  21 Hand Landmarks (x2)
-                          │
-        ┌─────────────┬───┴────────┬──────────────┐
-        ▼             ▼             ▼              ▼
-   Gesture Det.   Finger Pos.   Hand Motion   Two-Hand Logic
-        │             │             │              │
-        └─────────────┴──────┬──────┴──────────────┘
-                              ▼
-                  🎨  Canvas Rendering Engine
-        ┌──────────┬────────────┬───────────────┐
-        ▼          ▼            ▼               ▼
-   Particles   Shockwaves   Energy Lines   Dynamic BG
-                              │
-                              ▼
-               ✨  Interactive Visual Experience
-```
+<div align="center">
+
+![Processing pipeline diagram](./assets/diagrams/architecture-flow.svg)
+
+</div>
 
 MediaPipe Hands processes the webcam input and provides hand landmark coordinates that drive the application's gesture detection, visual effects, and two-hand interactions.
 
@@ -131,13 +113,11 @@ MediaPipe Hands processes the webcam input and provides hand landmark coordinate
 
 The application detects a pinch by measuring the distance between the **thumb tip** and **index finger tip**.
 
-```text
-Thumb Tip — Landmark 4
-        │
-        │ Distance
-        ▼
-Index Tip — Landmark 8
-```
+<div align="center">
+
+![Pinch detection diagram](./assets/diagrams/pinch-detection.svg)
+
+</div>
 
 When the fingers move sufficiently close together:
 
@@ -150,13 +130,11 @@ When the fingers move sufficiently close together:
 
 The application estimates hand spread by measuring the distance between the **index fingertip** and **pinky fingertip**.
 
-```text
-Index Tip — Landmark 8
-        │
-        │ Spread
-        ▼
-Pinky Tip — Landmark 20
-```
+<div align="center">
+
+![Open hand / fist spread diagram](./assets/diagrams/spread-detection.svg)
+
+</div>
 
 The calculated spread is converted into a percentage and used to distinguish between an open hand and a closed/fist-like state.
 
@@ -190,7 +168,13 @@ HANDS-DETECTION-AI/
 │
 ├── 📄 INDEX.HTML          → Landing page, tracking logic, gestures, canvas, audio
 ├── 🎨 style.css           → HUD, theme selector, glassmorphism, responsive layout
-└── 📘 README.md           → Project documentation
+├── 📘 README.md           → Project documentation
+│
+└── assets/
+    └── diagrams/          → Architecture & gesture-detection diagram images
+        ├── architecture-flow.svg
+        ├── pinch-detection.svg
+        └── spread-detection.svg
 ```
 
 ---
